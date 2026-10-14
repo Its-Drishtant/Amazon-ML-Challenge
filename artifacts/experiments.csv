@@ -1,0 +1,63 @@
+experiment,stage,candidate_recall_micro,candidate_recall_macro,entities_fully_covered,avg_candidates,p95_candidates,reduction_ratio,n_zero_candidates,macro_f05,macro_precision,macro_recall,singleton_accuracy,threshold,model,seconds,peak_rss_gb,notes
+smoke,blocking,0.9875,0.9875,0.986111,40.0,40.0,0.999933,0,,,,,,,9.4,1.11,nt1.0_at0.85_wn0.0_wc0.0_wa0.0_cg0.0_cap6000_k20_ms0.0
+blk01_tok_k20,blocking,0.915871,0.916976,0.773818,39.98905,40.0,0.999996,1,,,,,,,92.3,2.7,nt1.0_at0.85_wn0.0_wc0.0_wa0.0_cg0.0_cap6000_k20_ms0.0
+blk_norms_l2,blocking,0.929767,,0.809964,80,,,,,,,,,,79.8,3.99,norms=l2 recall@k curve in artifacts/validation/tune_norms.json
+blk_norms_sqrt,blocking,0.942208,,0.84102,80,,,,,,,,,,79.1,4.13,norms=sqrt recall@k curve in artifacts/validation/tune_norms.json
+blk_norms_none,blocking,0.927272,,0.808246,80,,,,,,,,,,77.7,4.83,norms=none recall@k curve in artifacts/validation/tune_norms.json
+blk_grams_base,blocking,0.942208,,0.84102,80,,,,,,,,,,81.0,4.74,grams=base recall@k curve in artifacts/validation/tune_grams.json
+blk_grams_sq2,blocking,0.890167,,0.754724,80,,,,,,,,,,97.2,3.71,grams=sq2 recall@k curve in artifacts/validation/tune_grams.json
+blk_grams_g4_.35,blocking,0.954324,,0.874851,80,,,,,,,,,,207.7,1.64,grams=g4_.35 recall@k curve in artifacts/validation/tune_grams.json
+blk_grams_g5_.45,blocking,0.948175,,0.858068,80,,,,,,,,,,230.8,1.59,grams=g5_.45 recall@k curve in artifacts/validation/tune_grams.json
+blk_grams_sq+g4,blocking,0.898449,,0.780626,80,,,,,,,,,,279.8,1.77,grams=sq+g4 recall@k curve in artifacts/validation/tune_grams.json
+blk_refine_g.35,blocking,0.954324,,0.874851,80,,,,,,,,,,200.9,3.12,refine=g.35 recall@k curve in artifacts/validation/tune_refine.json
+blk_refine_g.55,blocking,0.945029,,0.851064,80,,,,,,,,,,196.5,3.18,refine=g.55 recall@k curve in artifacts/validation/tune_refine.json
+blk_refine_g.35_a.6,blocking,0.910925,,0.759482,80,,,,,,,,,,196.3,3.23,refine=g.35_a.6 recall@k curve in artifacts/validation/tune_refine.json
+blk_refine_g.35_a1.1,blocking,0.958591,,0.88952,80,,,,,,,,,,196.9,3.13,refine=g.35_a1.1 recall@k curve in artifacts/validation/tune_refine.json
+blk_refine_g.35_cap20k,blocking,0.965752,,0.90115,80,,,,,,,,,,235.2,0.98,refine=g.35_cap20k recall@k curve in artifacts/validation/tune_refine.json
+blk_combo_a1.1_c20k,blocking,0.970851,,0.917801,80,,,,,,,,,,232.8,0.96,combo=a1.1_c20k recall@k curve in artifacts/validation/tune_combo.json
+blk_combo_a1.8_c20k,blocking,0.939279,,0.830977,80,,,,,,,,,,233.5,2.05,combo=a1.8_c20k recall@k curve in artifacts/validation/tune_combo.json
+blk_combo_a1.1_c60k,blocking,0.973021,,0.922691,80,,,,,,,,,,283.3,0.69,combo=a1.1_c60k recall@k curve in artifacts/validation/tune_combo.json
+blk_combo_a1.8_c60k,blocking,0.941883,,0.835205,80,,,,,,,,,,281.7,0.69,combo=a1.8_c60k recall@k curve in artifacts/validation/tune_combo.json
+blk_speed_g3k_q0,blocking,0.9685,,0.911458,80,,,,,,,,,,216.5,2.78,speed=g3k_q0 recall@k curve in artifacts/validation/tune_speed.json
+blk_speed_g1k_q0,blocking,0.9685,,0.911458,80,,,,,,,,,,217.1,2.34,speed=g1k_q0 recall@k curve in artifacts/validation/tune_speed.json
+blk_speed_g3k_q14,blocking,0.9668,,0.906568,80,,,,,,,,,,214.5,2.82,speed=g3k_q14 recall@k curve in artifacts/validation/tune_speed.json
+blk_speed_g3k_q20,blocking,0.968464,,0.911193,80,,,,,,,,,,218.1,2.36,speed=g3k_q20 recall@k curve in artifacts/validation/tune_speed.json
+blk_speed_g8k_q20,blocking,0.968898,,0.912118,80,,,,,,,,,,220.9,2.04,speed=g8k_q20 recall@k curve in artifacts/validation/tune_speed.json
+blk_speed_notok_c20k,blocking,0.967451,,0.908947,80,,,,,,,,,,200.2,4.83,speed=notok_c20k recall@k curve in artifacts/validation/tune_speed.json
+v1,model,0.9577444483423118,,0.880906171706835,40.0,,,,0.9518948425207907,0.9774041468254032,0.8972305351130417,0.9554485249849488,threshold:0.7:None,HistGradientBoostingClassifier,725.5,1.74,AUC=0.99941 AP=0.99460
+v2,model,0.9577444483423118,,0.880906171706835,40.0,,,,0.9544180809804533,0.9767514153439225,0.9072228367003441,0.9503311258278145,threshold:0.65:None,HistGradientBoostingClassifier,678.9,2.34,AUC=0.99950 AP=0.99534
+v1_verified,model_verified,0.9577444483423118,,0.880906171706835,40.0,,,,0.9518948425207907,0.9774041468254032,0.8972305351130417,0.9554485249849488,threshold:0.7,HistGB 47feat,76.0,5.39,independently re-measured; paired t=+8.99 v2 over v1
+v2_verified,model_verified,0.9577444483423118,,0.880906171706835,40.0,,,,0.9544180809804533,0.9767514153439225,0.9072228367003441,0.9503311258278145,threshold:0.65,HistGB 57feat,79.3,5.64,independently re-measured; paired t=+8.99 v2 over v1
+blk2_base_k20_cap0,blocking_exp2,0.957764,,0.880959,40.0,40.0,0.9999961241,,,,,,,,646.8,5.75,est_test_cands=69301760
+blk2_base_k20_cap10,blocking_exp2,0.962555,,0.891581,45.28,60.0,0.9999956127,,,,,,,,646.8,5.75,est_test_cands=78445694
+blk2_base_k20_cap20,blocking_exp2,0.964102,,0.894245,49.83,80.0,0.9999951714,,,,,,,,646.8,5.75,est_test_cands=86337028
+blk2_base_k25_cap0,blocking_exp2,0.960695,,0.888563,50.0,50.0,0.9999951551,,,,,,,,646.8,5.75,est_test_cands=86627200
+blk2_base_k25_cap10,blocking_exp2,0.964938,,0.897967,55.17,70.0,0.9999946544,,,,,,,,646.8,5.75,est_test_cands=95580006
+blk2_base_k25_cap20,blocking_exp2,0.966375,,0.90049,59.67,90.0,0.9999942186,,,,,,,,646.8,5.75,est_test_cands=103373653
+blk2_base_k30_cap0,blocking_exp2,0.963016,,0.89488,60.0,60.0,0.9999941862,,,,,,,,646.8,5.75,est_test_cands=103952640
+blk2_base_k30_cap10,blocking_exp2,0.966865,,0.903402,65.08,80.0,0.9999936943,,,,,,,,646.8,5.75,est_test_cands=112746716
+blk2_base_k30_cap20,blocking_exp2,0.96824,,0.905801,69.52,100.0,0.9999932635,,,,,,,,646.8,5.75,est_test_cands=120449318
+blk2_base_k40_cap0,blocking_exp2,0.966471,,0.90409,80.0,80.0,0.9999922482,,,,,,,,646.8,5.75,est_test_cands=138603520
+blk2_base_k40_cap10,blocking_exp2,0.969643,,0.911041,84.92,100.0,0.9999917714,,,,,,,,646.8,5.75,est_test_cands=147129918
+blk2_base_k40_cap20,blocking_exp2,0.970873,,0.913211,89.27,120.0,0.9999913499,,,,,,,,646.8,5.75,est_test_cands=154665127
+blk2_base_k60_cap0,blocking_exp2,0.970633,,0.915011,120.0,120.0,0.9999883723,,,,,,,,646.8,5.75,est_test_cands=207905280
+blk2_base_k60_cap10,blocking_exp2,0.973151,,0.920622,124.67,140.0,0.9999879201,,,,,,,,646.8,5.75,est_test_cands=215991409
+blk2_base_k60_cap20,blocking_exp2,0.974208,,0.92251,128.84,160.0,0.9999875157,,,,,,,,646.8,5.75,est_test_cands=223221777
+blk2_alias_k20_cap0,blocking_exp2,0.961844,,0.889834,40.0,40.0,0.9999961241,,,,,,,,646.8,5.75,est_test_cands=69301760
+blk2_alias_k20_cap10,blocking_exp2,0.965573,,0.898162,45.14,60.0,0.9999956264,,,,,,,,646.8,5.75,est_test_cands=78200106
+blk2_alias_k20_cap20,blocking_exp2,0.966765,,0.900261,49.6,80.0,0.9999951939,,,,,,,,646.8,5.75,est_test_cands=85934991
+blk2_alias_k25_cap0,blocking_exp2,0.964833,,0.897773,50.0,50.0,0.9999951551,,,,,,,,646.8,5.75,est_test_cands=86627200
+blk2_alias_k25_cap10,blocking_exp2,0.968043,,0.904901,55.0,70.0,0.9999946708,,,,,,,,646.8,5.75,est_test_cands=95287581
+blk2_alias_k25_cap20,blocking_exp2,0.969095,,0.906683,59.38,90.0,0.9999942459,,,,,,,,646.8,5.75,est_test_cands=102883805
+blk2_alias_k30_cap0,blocking_exp2,0.967072,,0.903966,60.0,60.0,0.9999941862,,,,,,,,646.8,5.75,est_test_cands=103952640
+blk2_alias_k30_cap10,blocking_exp2,0.969931,,0.910424,64.88,80.0,0.9999937131,,,,,,,,646.8,5.75,est_test_cands=112411006
+blk2_alias_k30_cap20,blocking_exp2,0.970921,,0.912188,69.19,100.0,0.9999932959,,,,,,,,646.8,5.75,est_test_cands=119870850
+blk2_alias_k40_cap0,blocking_exp2,0.970364,,0.912964,80.0,80.0,0.9999922482,,,,,,,,646.8,5.75,est_test_cands=138603520
+blk2_alias_k40_cap10,blocking_exp2,0.972637,,0.918169,84.68,100.0,0.9999917947,,,,,,,,646.8,5.75,est_test_cands=146712086
+blk2_alias_k40_cap20,blocking_exp2,0.973512,,0.919793,88.84,120.0,0.9999913914,,,,,,,,646.8,5.75,est_test_cands=153922992
+blk2_alias_k60_cap0,blocking_exp2,0.974256,,0.923145,120.0,120.0,0.9999883723,,,,,,,,646.8,5.75,est_test_cands=207905280
+blk2_alias_k60_cap10,blocking_exp2,0.975986,,0.927238,124.34,140.0,0.9999879513,,,,,,,,646.8,5.75,est_test_cands=215433097
+blk2_alias_k60_cap20,blocking_exp2,0.976688,,0.92865,128.25,159.0,0.9999875732,,,,,,,,646.8,5.75,est_test_cands=222194437
+v3,model,0.9618532276744309,,0.8898867285366456,40.0,,,,0.956248005866283,0.9798178108465665,0.9051352242664816,0.9608669476219145,threshold:0.7:None,HistGradientBoostingClassifier,719.9,2.31,AUC=0.99947 AP=0.99511
+v3_alias_verified_tau0.7,model_verified,0.9618532276744309,,0.8898867285366456,40.0,,,,0.956248005866283,0.9798178108465665,0.9051352242664816,0.9608669476219145,threshold:0.7,HistGB 57feat + ALIAS blocking,79.8,5.6,v2->v3 paired t=+6.89 (tau fixed 0.65) / +7.30 (own best)
+v3_alias_verified_tau0.65,model_verified,0.9618532276744309,,0.8898867285366456,40.0,,,,0.9561323268441185,0.9777761904761982,0.9101753234728295,0.950632149307646,threshold:0.65,HistGB 57feat + ALIAS blocking,79.8,5.6,v2->v3 paired t=+6.89 (tau fixed 0.65) / +7.30 (own best)

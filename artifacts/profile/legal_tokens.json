@@ -1,0 +1,887 @@
+{
+  "method": "asymmetry of token presence across confirmed matched pairs, unioned with a curated seed list",
+  "sample_pairs": 400000,
+  "asym_threshold": 0.7,
+  "min_token_pairs": 400,
+  "discovered_only": [
+    "aiti",
+    "aka",
+    "as",
+    "bildarsa",
+    "center",
+    "com",
+    "corporation",
+    "dba",
+    "doing",
+    "dr",
+    "elaelapi",
+    "enarji",
+    "fka",
+    "formerly",
+    "globala",
+    "id",
+    "impeksa",
+    "incorporated",
+    "intaraneshanala",
+    "jaya",
+    "kansaltensi",
+    "known",
+    "li",
+    "limirrad",
+    "limiteda",
+    "limitet",
+    "midiya",
+    "mr",
+    "ms",
+    "phaundeshana",
+    "piraivet",
+    "pra",
+    "praibheta",
+    "praivarr",
+    "praivet",
+    "praiveta",
+    "service",
+    "services",
+    "shri",
+    "smt",
+    "sri",
+    "ta",
+    "teka",
+    "the",
+    "www"
+  ],
+  "seed_only": [
+    "co",
+    "company",
+    "corp",
+    "ei",
+    "eirl",
+    "eurl",
+    "inc",
+    "kampani",
+    "lc",
+    "limited",
+    "llc",
+    "llp",
+    "lp",
+    "ltd",
+    "opc",
+    "pc",
+    "plc",
+    "pllc",
+    "private",
+    "pte",
+    "pvt",
+    "sa",
+    "sarl",
+    "sarlu",
+    "sas",
+    "sasu",
+    "sci",
+    "scs",
+    "selarl",
+    "snc"
+  ],
+  "legal_tokens": [
+    "aiti",
+    "aka",
+    "as",
+    "bildarsa",
+    "center",
+    "co",
+    "com",
+    "company",
+    "corp",
+    "corporation",
+    "dba",
+    "doing",
+    "dr",
+    "ei",
+    "eirl",
+    "elaelapi",
+    "enarji",
+    "eurl",
+    "fka",
+    "formerly",
+    "globala",
+    "id",
+    "impeksa",
+    "inc",
+    "incorporated",
+    "intaraneshanala",
+    "jaya",
+    "kampani",
+    "kansaltensi",
+    "known",
+    "lc",
+    "li",
+    "limirrad",
+    "limited",
+    "limiteda",
+    "limitet",
+    "llc",
+    "llp",
+    "lp",
+    "ltd",
+    "midiya",
+    "mr",
+    "ms",
+    "opc",
+    "pc",
+    "phaundeshana",
+    "piraivet",
+    "plc",
+    "pllc",
+    "pra",
+    "praibheta",
+    "praivarr",
+    "praivet",
+    "praiveta",
+    "private",
+    "pte",
+    "pvt",
+    "sa",
+    "sarl",
+    "sarlu",
+    "sas",
+    "sasu",
+    "sci",
+    "scs",
+    "selarl",
+    "service",
+    "services",
+    "shri",
+    "smt",
+    "snc",
+    "sri",
+    "ta",
+    "teka",
+    "the",
+    "www"
+  ],
+  "n_legal_tokens": 75,
+  "top_asymmetric": [
+    {
+      "token": "dba",
+      "pairs": 2731,
+      "asym": 1.0,
+      "df": 0.003218
+    },
+    {
+      "token": "praivarr",
+      "pairs": 784,
+      "asym": 1.0,
+      "df": 0.001329
+    },
+    {
+      "token": "limirrad",
+      "pairs": 901,
+      "asym": 1.0,
+      "df": 0.001516
+    },
+    {
+      "token": "www",
+      "pairs": 1401,
+      "asym": 1.0,
+      "df": 0.001964
+    },
+    {
+      "token": "praivet",
+      "pairs": 3408,
+      "asym": 1.0,
+      "df": 0.005638
+    },
+    {
+      "token": "limitet",
+      "pairs": 1694,
+      "asym": 1.0,
+      "df": 0.002924
+    },
+    {
+      "token": "kansaltensi",
+      "pairs": 437,
+      "asym": 1.0,
+      "df": 0.000718
+    },
+    {
+      "token": "piraivet",
+      "pairs": 1485,
+      "asym": 1.0,
+      "df": 0.002536
+    },
+    {
+      "token": "formerly",
+      "pairs": 1524,
+      "asym": 1.0,
+      "df": 0.001973
+    },
+    {
+      "token": "bildarsa",
+      "pairs": 400,
+      "asym": 1.0,
+      "df": 0.0007
+    },
+    {
+      "token": "phaundeshana",
+      "pairs": 405,
+      "asym": 1.0,
+      "df": 0.000667
+    },
+    {
+      "token": "doing",
+      "pairs": 564,
+      "asym": 1.0,
+      "df": 0.000649
+    },
+    {
+      "token": "aiti",
+      "pairs": 588,
+      "asym": 1.0,
+      "df": 0.000989
+    },
+    {
+      "token": "limiteda",
+      "pairs": 14381,
+      "asym": 1.0,
+      "df": 0.024027
+    },
+    {
+      "token": "elaelapi",
+      "pairs": 869,
+      "asym": 1.0,
+      "df": 0.001898
+    },
+    {
+      "token": "globala",
+      "pairs": 637,
+      "asym": 1.0,
+      "df": 0.001058
+    },
+    {
+      "token": "intaraneshanala",
+      "pairs": 558,
+      "asym": 1.0,
+      "df": 0.000949
+    },
+    {
+      "token": "midiya",
+      "pairs": 467,
+      "asym": 1.0,
+      "df": 0.000864
+    },
+    {
+      "token": "praibheta",
+      "pairs": 1328,
+      "asym": 1.0,
+      "df": 0.002131
+    },
+    {
+      "token": "shri",
+      "pairs": 2698,
+      "asym": 1.0,
+      "df": 0.00458
+    },
+    {
+      "token": "impeksa",
+      "pairs": 411,
+      "asym": 1.0,
+      "df": 0.00062
+    },
+    {
+      "token": "praiveta",
+      "pairs": 11169,
+      "asym": 1.0,
+      "df": 0.018331
+    },
+    {
+      "token": "teka",
+      "pairs": 657,
+      "asym": 1.0,
+      "df": 0.000973
+    },
+    {
+      "token": "known",
+      "pairs": 400,
+      "asym": 1.0,
+      "df": 0.000484
+    },
+    {
+      "token": "enarji",
+      "pairs": 529,
+      "asym": 1.0,
+      "df": 0.000893
+    },
+    {
+      "token": "pra",
+      "pairs": 2463,
+      "asym": 0.9996,
+      "df": 0.004011
+    },
+    {
+      "token": "incorporated",
+      "pairs": 2141,
+      "asym": 0.9995,
+      "df": 0.003138
+    },
+    {
+      "token": "smt",
+      "pairs": 2106,
+      "asym": 0.9995,
+      "df": 0.003491
+    },
+    {
+      "token": "fka",
+      "pairs": 1140,
+      "asym": 0.9991,
+      "df": 0.001498
+    },
+    {
+      "token": "aka",
+      "pairs": 1098,
+      "asym": 0.9991,
+      "df": 0.001327
+    },
+    {
+      "token": "com",
+      "pairs": 20637,
+      "asym": 0.999,
+      "df": 0.026513
+    },
+    {
+      "token": "sri",
+      "pairs": 2135,
+      "asym": 0.9981,
+      "df": 0.003693
+    },
+    {
+      "token": "mr",
+      "pairs": 2085,
+      "asym": 0.9933,
+      "df": 0.003609
+    },
+    {
+      "token": "dr",
+      "pairs": 2135,
+      "asym": 0.9925,
+      "df": 0.003724
+    },
+    {
+      "token": "id",
+      "pairs": 1367,
+      "asym": 0.9876,
+      "df": 0.002013
+    },
+    {
+      "token": "as",
+      "pairs": 1568,
+      "asym": 0.9751,
+      "df": 0.001844
+    },
+    {
+      "token": "ms",
+      "pairs": 2129,
+      "asym": 0.9751,
+      "df": 0.003662
+    },
+    {
+      "token": "li",
+      "pairs": 2543,
+      "asym": 0.9744,
+      "df": 0.004167
+    },
+    {
+      "token": "ta",
+      "pairs": 565,
+      "asym": 0.9593,
+      "df": 0.000667
+    },
+    {
+      "token": "jaya",
+      "pairs": 483,
+      "asym": 0.9503,
+      "df": 0.000718
+    },
+    {
+      "token": "the",
+      "pairs": 3716,
+      "asym": 0.9177,
+      "df": 0.006567
+    },
+    {
+      "token": "service",
+      "pairs": 5153,
+      "asym": 0.869,
+      "df": 0.008587
+    },
+    {
+      "token": "corporation",
+      "pairs": 6074,
+      "asym": 0.7468,
+      "df": 0.010178
+    },
+    {
+      "token": "center",
+      "pairs": 18794,
+      "asym": 0.7451,
+      "df": 0.032769
+    },
+    {
+      "token": "services",
+      "pairs": 14481,
+      "asym": 0.7273,
+      "df": 0.024973
+    },
+    {
+      "token": "lp",
+      "pairs": 5264,
+      "asym": 0.6702,
+      "df": 0.008371
+    },
+    {
+      "token": "ltd",
+      "pairs": 40345,
+      "asym": 0.6349,
+      "df": 0.075704
+    },
+    {
+      "token": "co",
+      "pairs": 8690,
+      "asym": 0.6236,
+      "df": 0.022662
+    },
+    {
+      "token": "one",
+      "pairs": 1194,
+      "asym": 0.6089,
+      "df": 0.001824
+    },
+    {
+      "token": "corp",
+      "pairs": 9762,
+      "asym": 0.5941,
+      "df": 0.023644
+    },
+    {
+      "token": "company",
+      "pairs": 3611,
+      "asym": 0.5882,
+      "df": 0.006304
+    },
+    {
+      "token": "impex",
+      "pairs": 1444,
+      "asym": 0.5824,
+      "df": 0.00236
+    },
+    {
+      "token": "business",
+      "pairs": 2495,
+      "asym": 0.5735,
+      "df": 0.003989
+    },
+    {
+      "token": "infotech",
+      "pairs": 1470,
+      "asym": 0.5429,
+      "df": 0.002367
+    },
+    {
+      "token": "shivam",
+      "pairs": 705,
+      "asym": 0.5376,
+      "df": 0.001167
+    },
+    {
+      "token": "hitech",
+      "pairs": 720,
+      "asym": 0.5375,
+      "df": 0.001133
+    },
+    {
+      "token": "estate",
+      "pairs": 1495,
+      "asym": 0.5351,
+      "df": 0.002478
+    },
+    {
+      "token": "power",
+      "pairs": 1545,
+      "asym": 0.5333,
+      "df": 0.002567
+    },
+    {
+      "token": "food",
+      "pairs": 1512,
+      "asym": 0.5331,
+      "df": 0.002493
+    },
+    {
+      "token": "limited",
+      "pairs": 97409,
+      "asym": 0.5315,
+      "df": 0.166418
+    },
+    {
+      "token": "constructions",
+      "pairs": 1486,
+      "asym": 0.5256,
+      "df": 0.002662
+    },
+    {
+      "token": "partners",
+      "pairs": 9771,
+      "asym": 0.5231,
+      "df": 0.025731
+    },
+    {
+      "token": "fortune",
+      "pairs": 766,
+      "asym": 0.517,
+      "df": 0.001296
+    },
+    {
+      "token": "laxmi",
+      "pairs": 729,
+      "asym": 0.5103,
+      "df": 0.001193
+    },
+    {
+      "token": "lotus",
+      "pairs": 713,
+      "asym": 0.5091,
+      "df": 0.001093
+    },
+    {
+      "token": "ss",
+      "pairs": 744,
+      "asym": 0.5081,
+      "df": 0.001158
+    },
+    {
+      "token": "dream",
+      "pairs": 755,
+      "asym": 0.5073,
+      "df": 0.001253
+    },
+    {
+      "token": "galaxy",
+      "pairs": 777,
+      "asym": 0.5058,
+      "df": 0.001458
+    },
+    {
+      "token": "my",
+      "pairs": 707,
+      "asym": 0.505,
+      "df": 0.001211
+    },
+    {
+      "token": "swastik",
+      "pairs": 754,
+      "asym": 0.5,
+      "df": 0.0011
+    },
+    {
+      "token": "good",
+      "pairs": 771,
+      "asym": 0.4994,
+      "df": 0.001358
+    },
+    {
+      "token": "high",
+      "pairs": 847,
+      "asym": 0.497,
+      "df": 0.001473
+    },
+    {
+      "token": "exports",
+      "pairs": 1649,
+      "asym": 0.493,
+      "df": 0.005602
+    },
+    {
+      "token": "projects",
+      "pairs": 1716,
+      "asym": 0.4913,
+      "df": 0.003058
+    },
+    {
+      "token": "builders",
+      "pairs": 1708,
+      "asym": 0.4906,
+      "df": 0.003018
+    },
+    {
+      "token": "tech",
+      "pairs": 2520,
+      "asym": 0.4901,
+      "df": 0.004322
+    },
+    {
+      "token": "healthcare",
+      "pairs": 1738,
+      "asym": 0.4868,
+      "df": 0.003187
+    },
+    {
+      "token": "consulting",
+      "pairs": 1889,
+      "asym": 0.4844,
+      "df": 0.003329
+    },
+    {
+      "token": "indian",
+      "pairs": 746,
+      "asym": 0.4812,
+      "df": 0.001264
+    },
+    {
+      "token": "labs",
+      "pairs": 1062,
+      "asym": 0.4812,
+      "df": 0.001982
+    }
+  ],
+  "most_stable": [
+    {
+      "token": "hari",
+      "pairs": 726,
+      "asym": 0.0592,
+      "df": 0.001651
+    },
+    {
+      "token": "happy",
+      "pairs": 407,
+      "asym": 0.0639,
+      "df": 0.000998
+    },
+    {
+      "token": "primary",
+      "pairs": 977,
+      "asym": 0.0716,
+      "df": 0.002242
+    },
+    {
+      "token": "little",
+      "pairs": 448,
+      "asym": 0.0826,
+      "df": 0.001118
+    },
+    {
+      "token": "pune",
+      "pairs": 536,
+      "asym": 0.084,
+      "df": 0.001287
+    },
+    {
+      "token": "pediatric",
+      "pairs": 2740,
+      "asym": 0.0861,
+      "df": 0.006704
+    },
+    {
+      "token": "baba",
+      "pairs": 735,
+      "asym": 0.0884,
+      "df": 0.001618
+    },
+    {
+      "token": "foot",
+      "pairs": 930,
+      "asym": 0.0892,
+      "df": 0.002262
+    },
+    {
+      "token": "s",
+      "pairs": 8827,
+      "asym": 0.0894,
+      "df": 0.020533
+    },
+    {
+      "token": "urgent",
+      "pairs": 879,
+      "asym": 0.091,
+      "df": 0.002167
+    },
+    {
+      "token": "eye",
+      "pairs": 1176,
+      "asym": 0.0927,
+      "df": 0.002747
+    },
+    {
+      "token": "dermatology",
+      "pairs": 974,
+      "asym": 0.0934,
+      "df": 0.002178
+    },
+    {
+      "token": "main",
+      "pairs": 468,
+      "asym": 0.094,
+      "df": 0.001007
+    },
+    {
+      "token": "krishna",
+      "pairs": 831,
+      "asym": 0.1011,
+      "df": 0.001842
+    },
+    {
+      "token": "womens",
+      "pairs": 914,
+      "asym": 0.1018,
+      "df": 0.002136
+    },
+    {
+      "token": "ear",
+      "pairs": 981,
+      "asym": 0.1019,
+      "df": 0.002238
+    },
+    {
+      "token": "guru",
+      "pairs": 710,
+      "asym": 0.1042,
+      "df": 0.001707
+    },
+    {
+      "token": "aditya",
+      "pairs": 743,
+      "asym": 0.105,
+      "df": 0.00176
+    },
+    {
+      "token": "orthopedic",
+      "pairs": 887,
+      "asym": 0.106,
+      "df": 0.002136
+    },
+    {
+      "token": "chennai",
+      "pairs": 418,
+      "asym": 0.1077,
+      "df": 0.000907
+    },
+    {
+      "token": "western",
+      "pairs": 532,
+      "asym": 0.1109,
+      "df": 0.001098
+    },
+    {
+      "token": "balaji",
+      "pairs": 836,
+      "asym": 0.1112,
+      "df": 0.001907
+    },
+    {
+      "token": "mumbai",
+      "pairs": 1018,
+      "asym": 0.112,
+      "df": 0.002349
+    },
+    {
+      "token": "tirupati",
+      "pairs": 722,
+      "asym": 0.1136,
+      "df": 0.001847
+    },
+    {
+      "token": "desert",
+      "pairs": 1153,
+      "asym": 0.1136,
+      "df": 0.002596
+    },
+    {
+      "token": "bay",
+      "pairs": 1081,
+      "asym": 0.1147,
+      "df": 0.002876
+    },
+    {
+      "token": "tri",
+      "pairs": 1144,
+      "asym": 0.1163,
+      "df": 0.002811
+    },
+    {
+      "token": "shakti",
+      "pairs": 710,
+      "asym": 0.1169,
+      "df": 0.001733
+    },
+    {
+      "token": "urology",
+      "pairs": 847,
+      "asym": 0.1192,
+      "df": 0.002109
+    },
+    {
+      "token": "of",
+      "pairs": 7929,
+      "asym": 0.1193,
+      "df": 0.018267
+    },
+    {
+      "token": "fresh",
+      "pairs": 1391,
+      "asym": 0.1193,
+      "df": 0.003131
+    },
+    {
+      "token": "american",
+      "pairs": 1306,
+      "asym": 0.121,
+      "df": 0.002991
+    },
+    {
+      "token": "cascade",
+      "pairs": 1322,
+      "asym": 0.121,
+      "df": 0.002813
+    },
+    {
+      "token": "hyderabad",
+      "pairs": 402,
+      "asym": 0.1219,
+      "df": 0.000976
+    },
+    {
+      "token": "rodriguez",
+      "pairs": 523,
+      "asym": 0.1224,
+      "df": 0.001291
+    },
+    {
+      "token": "peak",
+      "pairs": 1003,
+      "asym": 0.1226,
+      "df": 0.002487
+    },
+    {
+      "token": "bangalore",
+      "pairs": 768,
+      "asym": 0.1237,
+      "df": 0.001769
+    },
+    {
+      "token": "gonzalez",
+      "pairs": 436,
+      "asym": 0.1239,
+      "df": 0.001051
+    },
+    {
+      "token": "unified",
+      "pairs": 1095,
+      "asym": 0.1251,
+      "df": 0.002551
+    },
+    {
+      "token": "vanguard",
+      "pairs": 1125,
+      "asym": 0.1253,
+      "df": 0.002576
+    }
+  ]
+}

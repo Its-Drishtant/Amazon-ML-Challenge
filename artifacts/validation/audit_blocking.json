@@ -1,0 +1,49 @@
+{
+  "config": {
+    "w_name_tok": 1.0,
+    "w_addr_tok": 1.1,
+    "w_whole_name": 0.0,
+    "w_whole_core": 0.0,
+    "w_whole_addr": 0.0,
+    "w_squash_name": 0.0,
+    "w_char_gram": 0.35,
+    "char_n": 4,
+    "cand_norm": "sqrt",
+    "df_cap": 20000,
+    "df_cap_frac": 0.012,
+    "df_cap_gram": 3000,
+    "df_cap_gram_frac": 0.0,
+    "max_query_terms": 0,
+    "topk": 20,
+    "min_score": 0.0,
+    "batch": 4000
+  },
+  "n_true_matches": 208091,
+  "n_missed": 8793,
+  "missed_fraction": 0.042255551657688226,
+  "failure_counts": {
+    "STRONG_ADDR_RANKED_OUT": 2525,
+    "HIGH_NAME_SIM_RANKED_OUT": 3194,
+    "OTHER": 1403,
+    "TRANSLITERATION": 603,
+    "UNREACHABLE": 345,
+    "EXACT_NAME_RANKED_OUT": 706,
+    "SHORT_NAME": 15,
+    "ABBREVIATION_ACRONYM": 2
+  },
+  "unreachable": 345,
+  "reachable": 8448,
+  "recoverable_by_k": {
+    "20": 9,
+    "25": 614,
+    "30": 1097,
+    "40": 1815,
+    "60": 2683,
+    "100": 3641,
+    "200": 4746,
+    "500": 5874,
+    "1000": 6548
+  },
+  "peak_rss_gb": 5.37,
+  "seconds": 246.2
+}

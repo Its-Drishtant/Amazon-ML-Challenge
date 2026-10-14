@@ -1,0 +1,35 @@
+{
+  "pairs": 2400000,
+  "accepted": 188240,
+  "tp": 185764,
+  "fp": 2476,
+  "fn_scored": 13534,
+  "fn_blocked": 8793,
+  "entities": 60000,
+  "singletons": 3322,
+  "fp_on_singletons": 161,
+  "singleton_entities_hit": 148,
+  "fp_patterns": {
+    "missing address on one side": 610,
+    "both look identical": 427,
+    "same address, different name": 342,
+    "moderate on both fields": 1014,
+    "acronym/abbreviated name": 69,
+    "same name, different address": 13,
+    "weak on both fields": 1
+  },
+  "fn_patterns": {
+    "missing address on one side": 4609,
+    "moderate on both fields": 5360,
+    "acronym/abbreviated name": 353,
+    "same address, different name": 1802,
+    "both look identical": 1256,
+    "same name, different address": 150,
+    "weak on both fields": 4
+  },
+  "decision": {
+    "rule": "threshold",
+    "tau": 0.7,
+    "alpha": null
+  }
+}

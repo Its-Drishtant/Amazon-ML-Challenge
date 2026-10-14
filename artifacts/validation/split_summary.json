@@ -1,0 +1,35 @@
+{
+  "seed": 20260925,
+  "val_fraction": 0.06,
+  "train": {
+    "n": 2074412,
+    "countries": {
+      "india": 830197,
+      "us": 1244215
+    },
+    "singleton_rate": 0.05585,
+    "mean_matches": 3.4612,
+    "max_matches": 11
+  },
+  "validation": {
+    "n": 132409,
+    "countries": {
+      "india": 52991,
+      "us": 79418
+    },
+    "singleton_rate": 0.05585,
+    "mean_matches": 3.4621,
+    "max_matches": 11
+  },
+  "validation_scoring_sample": {
+    "n": 60000,
+    "countries": {
+      "india": 23896,
+      "us": 36104
+    },
+    "singleton_rate": 0.05537,
+    "mean_matches": 3.4682,
+    "max_matches": 11
+  },
+  "note": "validation S1 entities are blocked against the FULL train S2/S3 pool"
+}

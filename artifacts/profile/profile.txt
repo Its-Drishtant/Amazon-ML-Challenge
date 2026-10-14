@@ -1,0 +1,68 @@
+==============================================================================
+DATASET PROFILE
+==============================================================================
+host: 17.2 GB RAM, 8 CPUs, python 3.14.6, pandas 3.0.3
+
+dataset             rows      MB  empty name  empty addr   uniq name countries
+train_s1       2,206,821     210           0           0   1,539,229         2
+train_s2       5,034,616     489           0     168,967   4,402,009         2
+train_s3       5,285,603     504           0     175,916   4,651,609         2
+test_s1        1,732,544     175           0           0   1,238,867         3
+test_s2        4,887,273     509           0     129,408   4,311,041         3
+test_s3        5,082,316     506           0     136,098   4,521,929         3
+
+-- country distribution --
+train_s1    India=883,188 (40.0%)  US=1,323,633 (60.0%)
+train_s2    India=2,017,799 (40.1%)  US=3,016,817 (59.9%)
+train_s3    India=2,115,547 (40.0%)  US=3,170,056 (60.0%)
+test_s1     France=259,452 (15.0%)  India=809,986 (46.8%)  US=663,106 (38.3%)
+test_s2     France=703,378 (14.4%)  India=2,312,565 (47.3%)  US=1,871,330 (38.3%)
+test_s3     France=731,615 (14.4%)  India=2,405,000 (47.3%)  US=1,945,701 (38.3%)
+
+countries train=['India', 'US'] test=['France', 'India', 'US']
+UNSEEN IN TEST -> ['France']
+
+-- name / address length --
+train_s1     name mean=24.03  p95=37    max=105    | addr mean=52.07  p95=103   max=256
+train_s2     name mean=25.1   p95=40    max=104    | addr mean=46.23  p95=96    max=249
+train_s3     name mean=25.2   p95=42    max=123    | addr mean=46.71  p95=91    max=240
+test_s1      name mean=23.84  p95=36    max=92     | addr mean=57.21  p95=105   max=268
+test_s2      name mean=25.7   p95=42    max=102    | addr mean=50.41  p95=99    max=269
+test_s3      name mean=25.66  p95=42    max=103    | addr mean=48.74  p95=94    max=267
+
+-- script mix of business_name (40k sample) --
+train_s1    {'LATIN': 40000}
+train_s2    {'LATIN': 36330, 'DEVANAGARI': 2096, 'TELUGU': 316, 'GUJARATI': 258, 'TAMIL': 258, 'KANNADA': 256, 'BENGALI': 238, 'MALAYALAM': 146, 'ORIYA': 53, 'GURMUKHI': 49}
+train_s3    {'LATIN': 37988, 'DEVANAGARI': 1105, 'TELUGU': 170, 'KANNADA': 165, 'BENGALI': 156, 'TAMIL': 140, 'GUJARATI': 121, 'MALAYALAM': 88, 'GURMUKHI': 36, 'ORIYA': 29, 'NONE': 2}
+test_s1     {'LATIN': 40000}
+test_s2     {'LATIN': 35596, 'DEVANAGARI': 2535, 'TELUGU': 371, 'KANNADA': 355, 'TAMIL': 308, 'GUJARATI': 284, 'BENGALI': 264, 'MALAYALAM': 169, 'ORIYA': 62, 'GURMUKHI': 56}
+test_s3     {'LATIN': 37678, 'DEVANAGARI': 1297, 'TELUGU': 228, 'KANNADA': 179, 'TAMIL': 168, 'BENGALI': 148, 'GUJARATI': 145, 'MALAYALAM': 92, 'GURMUKHI': 35, 'ORIYA': 28, 'NONE': 2}
+
+-- names that ASCII-folding would erase completely --
+train_s1               0 (0.00%)
+train_s2       1,353,239 (26.88%)
+train_s3         392,083 (7.42%)
+test_s1                0 (0.00%)
+test_s2        1,341,544 (27.45%)
+test_s3          437,914 (8.62%)
+
+==============================================================================
+GROUND TRUTH
+==============================================================================
+S1 entities            2,206,821
+zero matches           123,247 (5.58%)
+exactly one match      119,157
+multiple matches       1,964,417
+avg matches (all)      3.4613
+avg matches (nonempty) 3.666
+max matches            11
+total matched ids      7,638,365  (S2 3,693,619 / S3 3,944,746)
+S2-only / S3-only / both: 143,029 / 164,498 / 1,776,047
+max S2 for one entity  5
+max S3 for one entity  6
+lists with dup ids     0
+unexpected prefixes    {}
+match-count histogram  {'0': 123247, '1': 119157, '2': 375212, '3': 530841, '4': 484115, '5': 321957, '6': 164868, '7': 63968, '8': 18680, '9': 4205, '10': 534, '11': 37}
+
+consistency: {'gt_ids_not_in_source1': 0, 'source1_ids_not_in_gt': 0}
+runtime 193.9s  peak RSS 1.71 GB

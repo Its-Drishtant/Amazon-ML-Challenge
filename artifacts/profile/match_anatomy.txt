@@ -1,0 +1,63 @@
+==============================================================================
+ANATOMY OF 60,000 TRUE MATCHED PAIRS
+==============================================================================
+name token_set_ratio        p1=22  p5=54  p10=70  p25=89  p50=100  p75=100  p90=100  mean=91.1
+name token_sort_ratio       p1=22  p5=50  p10=61  p25=77  p50=90  p75=100  p90=100  mean=85.1
+name partial_ratio          p1=40  p5=67  p10=74  p25=87  p50=100  p75=100  p90=100  mean=91.7
+addr token_set_ratio        p1=0  p5=60  p10=78  p25=89  p50=96  p75=100  p90=100  mean=89.5
+name token jaccard %        p1=0  p5=0  p10=0  p25=50  p50=67  p75=100  p90=100  mean=65.5
+
+pairs sharing >=1 name token : 87.6167%
+pairs sharing >=1 addr token : 95.6050%
+pairs sharing name OR addr   : 100.0000%   <-- blocking recall ceiling
+exact equal name_norm        : 26.8000%
+exact equal addr_norm        : 12.4983%
+empty addr on S2/S3 side     : 4.3883%
+country agrees on true pair  : 100.0000%   <-- gate safety
+country disagreements        : {}
+
+-- blocking signal by country (share of true pairs) --
+country          n  name tok  addr tok   either  exact nm  nm sim p10  ad sim p10
+india        24196   80.91%    96.19%  100.00%    19.17%          62          81
+us           35804   92.15%    95.21%  100.00%    31.95%          78          76
+
+short single-token candidate names : 257 (0.43% of pairs)
+  ... of which an acronym of S1 name: 95 (37.0%)  <-- motivates an acronym feature
+
+-- 12 hardest true pairs by name similarity --
+  name_sim=  0 addr_sim=100
+      S1 'jm trust' | 'lt 83 vijaynagar harni rd baroda vadodara gujarat'
+      S3 'wexcalo' | 'lt 83 vijaynagar harni rd baroda vadodara gujarat'
+  name_sim=  0 addr_sim= 94
+      S1 'hume gen' | '7704 choctaw ln mckinney tx'
+      S3 'lyraarcavi' | '7704 7708 choctaw ln mckinney texas'
+  name_sim=  0 addr_sim=100
+      S1 'vedyne inc' | '9865 575 blue rdg tx'
+      S2 'sollum' | '9865 575 blue rdg tx'
+  name_sim=  5 addr_sim=100
+      S1 'international consultants private limited' | 'a 23 a single storey kingsway camp vijay nagar delhi n w delhi'
+      S3 'ic' | 'a 23 a delhi single storey kingsway camp vijay nagar delhi n w'
+  name_sim=  5 addr_sim=100
+      S1 'taraora communications private limited' | '267 d 6 gorai mahalaxmi soc ltd plot no 26 gorai borivali w hanu'
+      S3 'tc' | '267 d 6 gorai mahalaxmi soc ltd plot no 26 gorai borivali w hanu'
+  name_sim=  5 addr_sim=100
+      S1 'vijay enterprises private limited' | 'd no 3 44 a narayana puram rd tapovanam ananthapur anantapur and'
+      S3 'quoarc' | 'd no 3 44 a narayana puram rd tapovanam ananthapur anantapur and'
+  name_sim=  6 addr_sim=100
+      S1 'checkmate brothers private limited' | 'no 33 pallanjur rd chembarambakkam chennai tamil nadu'
+      S3 'cb' | 'pallanjur rd chembarambakkam chennai no 33 tamil nadu'
+  name_sim=  6 addr_sim=100
+      S1 'sunrise consulting private limited' | '781 db gupta rd karolbagh new delhi delhi'
+      S3 'sc' | 'karolbagh db gupta rd new delhi delhi 781'
+  name_sim=  6 addr_sim=100
+      S1 'touchwood builders private limited' | 'plot no 2321 ph 2 gidc chhatral ta kalol gandhinagar gandhinagar'
+      S3 'tb' | 'plot no 2321 ph 2 gidc chhatral ta kalol gandhinagar gandhinagar'
+  name_sim=  6 addr_sim=100
+      S1 'premkunj india foundation limited' | '2 kh no 17 3 1 17 3 2 johri pur ext n e delhi n e delhi'
+      S3 'pf' | '2 kh no 17 3 1 17 3 2 johri pur ext n e delhi n e delhi'
+  name_sim=  6 addr_sim=100
+      S1 'sushee india real private limited' | 'tamil nadu kanchipuram 5th cross st anna nagar pammal no 65'
+      S3 'sr' | 'no 65 5th cross st anna nagar pammal kanchipuram tamil nadu'
+  name_sim=  6 addr_sim=100
+      S1 'super consultants private limited' | '5 140 q flat no 1 a6 holifaith four sq manor thrikkara kakkanad '
+      S3 'sc' | '5 140 q flat no 1 a6 holifaith four sq manor thrikkara kakkanad '

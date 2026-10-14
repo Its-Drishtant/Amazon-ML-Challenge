@@ -1,0 +1,1596 @@
+{
+  "method": "token-substitution association across confirmed matched pairs (training Source-1 entities only)",
+  "sample_pairs": 600000,
+  "min_pair_count": 60,
+  "min_assoc": 0.34,
+  "addr_alias_pairs": [
+    {
+      "a": "tx",
+      "b": "texas",
+      "n": 16234,
+      "assoc": 0.998
+    },
+    {
+      "a": "maharashtra",
+      "b": "mh",
+      "n": 12360,
+      "assoc": 0.996
+    },
+    {
+      "a": "ny",
+      "b": "york",
+      "n": 11741,
+      "assoc": 0.9949
+    },
+    {
+      "a": "ny",
+      "b": "new",
+      "n": 11557,
+      "assoc": 0.8784
+    },
+    {
+      "a": "nc",
+      "b": "carolina",
+      "n": 11210,
+      "assoc": 0.968
+    },
+    {
+      "a": "nc",
+      "b": "n",
+      "n": 11197,
+      "assoc": 0.9094
+    },
+    {
+      "a": "oh",
+      "b": "ohio",
+      "n": 10528,
+      "assoc": 0.999
+    },
+    {
+      "a": "il",
+      "b": "illinois",
+      "n": 9261,
+      "assoc": 0.9994
+    },
+    {
+      "a": "tn",
+      "b": "tennessee",
+      "n": 7538,
+      "assoc": 0.9992
+    },
+    {
+      "a": "ma",
+      "b": "massachusetts",
+      "n": 6939,
+      "assoc": 0.9986
+    },
+    {
+      "a": "az",
+      "b": "arizona",
+      "n": 6890,
+      "assoc": 0.9981
+    },
+    {
+      "a": "va",
+      "b": "virginia",
+      "n": 6763,
+      "assoc": 0.7779
+    },
+    {
+      "a": "in",
+      "b": "indiana",
+      "n": 6051,
+      "assoc": 0.9985
+    },
+    {
+      "a": "wa",
+      "b": "washington",
+      "n": 5069,
+      "assoc": 0.975
+    },
+    {
+      "a": "md",
+      "b": "maryland",
+      "n": 4905,
+      "assoc": 0.9996
+    },
+    {
+      "a": "pradesh",
+      "b": "up",
+      "n": 4821,
+      "assoc": 0.383
+    },
+    {
+      "a": "uttar",
+      "b": "up",
+      "n": 4817,
+      "assoc": 0.6002
+    },
+    {
+      "a": "ca",
+      "b": "california",
+      "n": 4462,
+      "assoc": 0.9975
+    },
+    {
+      "a": "pradesh",
+      "b": "pradesha",
+      "n": 4381,
+      "assoc": 0.348
+    },
+    {
+      "a": "karnataka",
+      "b": "ka",
+      "n": 4148,
+      "assoc": 0.9938
+    },
+    {
+      "a": "nadu",
+      "b": "tn",
+      "n": 4005,
+      "assoc": 0.5642
+    },
+    {
+      "a": "tamil",
+      "b": "tn",
+      "n": 4003,
+      "assoc": 0.564
+    },
+    {
+      "a": "al",
+      "b": "alabama",
+      "n": 3911,
+      "assoc": 0.9992
+    },
+    {
+      "a": "bengal",
+      "b": "wb",
+      "n": 3872,
+      "assoc": 0.5772
+    },
+    {
+      "a": "w",
+      "b": "wb",
+      "n": 3848,
+      "assoc": 0.4184
+    },
+    {
+      "a": "mn",
+      "b": "minnesota",
+      "n": 3748,
+      "assoc": 0.9989
+    },
+    {
+      "a": "or",
+      "b": "oregon",
+      "n": 3682,
+      "assoc": 0.993
+    },
+    {
+      "a": "ky",
+      "b": "kentucky",
+      "n": 3554,
+      "assoc": 0.9829
+    },
+    {
+      "a": "gujarat",
+      "b": "gj",
+      "n": 3501,
+      "assoc": 0.5618
+    },
+    {
+      "a": "wi",
+      "b": "wisconsin",
+      "n": 3482,
+      "assoc": 0.9951
+    },
+    {
+      "a": "st",
+      "b": "saint",
+      "n": 3460,
+      "assoc": 0.808
+    },
+    {
+      "a": "ar",
+      "b": "arkansas",
+      "n": 3368,
+      "assoc": 0.9973
+    },
+    {
+      "a": "mo",
+      "b": "missouri",
+      "n": 3247,
+      "assoc": 0.9994
+    },
+    {
+      "a": "uttar",
+      "b": "uttara",
+      "n": 3189,
+      "assoc": 0.3973
+    },
+    {
+      "a": "uttar",
+      "b": "pradesha",
+      "n": 3189,
+      "assoc": 0.3973
+    },
+    {
+      "a": "nadu",
+      "b": "tamilnatu",
+      "n": 3092,
+      "assoc": 0.4356
+    },
+    {
+      "a": "tamil",
+      "b": "tamilnatu",
+      "n": 3092,
+      "assoc": 0.4356
+    },
+    {
+      "a": "bengal",
+      "b": "pashchimabangga",
+      "n": 2828,
+      "assoc": 0.4216
+    },
+    {
+      "a": "telangana",
+      "b": "tg",
+      "n": 2808,
+      "assoc": 0.5773
+    },
+    {
+      "a": "ok",
+      "b": "oklahoma",
+      "n": 2794,
+      "assoc": 0.9971
+    },
+    {
+      "a": "ut",
+      "b": "utah",
+      "n": 2745,
+      "assoc": 0.9971
+    },
+    {
+      "a": "gujarat",
+      "b": "gujarata",
+      "n": 2734,
+      "assoc": 0.4387
+    },
+    {
+      "a": "ia",
+      "b": "iowa",
+      "n": 2606,
+      "assoc": 0.9849
+    },
+    {
+      "a": "haryana",
+      "b": "hr",
+      "n": 2373,
+      "assoc": 0.5685
+    },
+    {
+      "a": "ct",
+      "b": "connecticut",
+      "n": 2246,
+      "assoc": 0.9541
+    },
+    {
+      "a": "rajasthan",
+      "b": "rj",
+      "n": 2212,
+      "assoc": 0.5771
+    },
+    {
+      "a": "telangana",
+      "b": "pradesh",
+      "n": 2049,
+      "assoc": 0.4213
+    },
+    {
+      "a": "telangana",
+      "b": "andhra",
+      "n": 2048,
+      "assoc": 0.4211
+    },
+    {
+      "a": "kerala",
+      "b": "kl",
+      "n": 1932,
+      "assoc": 0.4002
+    },
+    {
+      "a": "wv",
+      "b": "w",
+      "n": 1922,
+      "assoc": 0.8386
+    },
+    {
+      "a": "ks",
+      "b": "kansas",
+      "n": 1802,
+      "assoc": 0.96
+    },
+    {
+      "a": "haryana",
+      "b": "hariyana",
+      "n": 1795,
+      "assoc": 0.43
+    },
+    {
+      "a": "rajasthan",
+      "b": "rajasthana",
+      "n": 1620,
+      "assoc": 0.4226
+    },
+    {
+      "a": "orissa",
+      "b": "odisha",
+      "n": 1549,
+      "assoc": 0.6631
+    },
+    {
+      "a": "bihar",
+      "b": "br",
+      "n": 1536,
+      "assoc": 0.5714
+    },
+    {
+      "a": "madhya",
+      "b": "mp",
+      "n": 1495,
+      "assoc": 0.9836
+    },
+    {
+      "a": "me",
+      "b": "maine",
+      "n": 1466,
+      "assoc": 0.9973
+    },
+    {
+      "a": "nm",
+      "b": "mexico",
+      "n": 1389,
+      "assoc": 0.9943
+    },
+    {
+      "a": "pa",
+      "b": "pennsylvania",
+      "n": 1319,
+      "assoc": 0.9992
+    },
+    {
+      "a": "mt",
+      "b": "montana",
+      "n": 1235,
+      "assoc": 0.9618
+    },
+    {
+      "a": "of",
+      "b": "wisconsin",
+      "n": 1190,
+      "assoc": 0.3408
+    },
+    {
+      "a": "bihar",
+      "b": "bihara",
+      "n": 1148,
+      "assoc": 0.4271
+    },
+    {
+      "a": "andhra",
+      "b": "ap",
+      "n": 1056,
+      "assoc": 0.5717
+    },
+    {
+      "a": "de",
+      "b": "delaware",
+      "n": 1039,
+      "assoc": 0.9665
+    },
+    {
+      "a": "punjab",
+      "b": "pb",
+      "n": 813,
+      "assoc": 0.5733
+    },
+    {
+      "a": "andhra",
+      "b": "andhrapradesh",
+      "n": 778,
+      "assoc": 0.4212
+    },
+    {
+      "a": "nd",
+      "b": "dakota",
+      "n": 755,
+      "assoc": 0.8066
+    },
+    {
+      "a": "ne",
+      "b": "nebraska",
+      "n": 704,
+      "assoc": 0.9944
+    },
+    {
+      "a": "dc",
+      "b": "dist",
+      "n": 696,
+      "assoc": 0.9431
+    },
+    {
+      "a": "dc",
+      "b": "of",
+      "n": 696,
+      "assoc": 0.7468
+    },
+    {
+      "a": "dc",
+      "b": "columbia",
+      "n": 693,
+      "assoc": 0.9844
+    },
+    {
+      "a": "vt",
+      "b": "vermont",
+      "n": 613,
+      "assoc": 0.9839
+    },
+    {
+      "a": "punjab",
+      "b": "jaba",
+      "n": 607,
+      "assoc": 0.4281
+    },
+    {
+      "a": "punjab",
+      "b": "pa",
+      "n": 607,
+      "assoc": 0.4281
+    },
+    {
+      "a": "co",
+      "b": "colorado",
+      "n": 535,
+      "assoc": 0.8799
+    },
+    {
+      "a": "la",
+      "b": "louisiana",
+      "n": 530,
+      "assoc": 0.9298
+    },
+    {
+      "a": "fort",
+      "b": "ft",
+      "n": 462,
+      "assoc": 0.6201
+    },
+    {
+      "a": "ak",
+      "b": "alaska",
+      "n": 412,
+      "assoc": 0.9928
+    },
+    {
+      "a": "saint",
+      "b": "st",
+      "n": 395,
+      "assoc": 0.628
+    },
+    {
+      "a": "ga",
+      "b": "georgia",
+      "n": 394,
+      "assoc": 0.9924
+    },
+    {
+      "a": "sc",
+      "b": "s",
+      "n": 367,
+      "assoc": 0.3904
+    },
+    {
+      "a": "4th",
+      "b": "fourth",
+      "n": 329,
+      "assoc": 0.5993
+    },
+    {
+      "a": "cove",
+      "b": "cv",
+      "n": 321,
+      "assoc": 0.9331
+    },
+    {
+      "a": "2nd",
+      "b": "second",
+      "n": 319,
+      "assoc": 0.4719
+    },
+    {
+      "a": "3rd",
+      "b": "third",
+      "n": 318,
+      "assoc": 0.5608
+    },
+    {
+      "a": "wy",
+      "b": "wyoming",
+      "n": 292,
+      "assoc": 0.9865
+    },
+    {
+      "a": "5th",
+      "b": "fifth",
+      "n": 292,
+      "assoc": 0.6122
+    },
+    {
+      "a": "1st",
+      "b": "first",
+      "n": 254,
+      "assoc": 0.4349
+    },
+    {
+      "a": "atlanta",
+      "b": "atl",
+      "n": 249,
+      "assoc": 0.7367
+    },
+    {
+      "a": "7th",
+      "b": "seventh",
+      "n": 243,
+      "assoc": 0.6199
+    },
+    {
+      "a": "mount",
+      "b": "mt",
+      "n": 238,
+      "assoc": 0.663
+    },
+    {
+      "a": "8th",
+      "b": "eighth",
+      "n": 234,
+      "assoc": 0.65
+    },
+    {
+      "a": "6th",
+      "b": "sixth",
+      "n": 221,
+      "assoc": 0.6243
+    },
+    {
+      "a": "10th",
+      "b": "tenth",
+      "n": 185,
+      "assoc": 0.5968
+    },
+    {
+      "a": "9th",
+      "b": "ninth",
+      "n": 179,
+      "assoc": 0.6303
+    },
+    {
+      "a": "atlanta",
+      "b": "georgia",
+      "n": 162,
+      "assoc": 0.4112
+    },
+    {
+      "a": "11th",
+      "b": "eleventh",
+      "n": 158,
+      "assoc": 0.6245
+    },
+    {
+      "a": "12th",
+      "b": "twelfth",
+      "n": 154,
+      "assoc": 0.639
+    },
+    {
+      "a": "14th",
+      "b": "fourteenth",
+      "n": 139,
+      "assoc": 0.6233
+    },
+    {
+      "a": "13th",
+      "b": "thirteenth",
+      "n": 134,
+      "assoc": 0.6802
+    },
+    {
+      "a": "id",
+      "b": "idaho",
+      "n": 127,
+      "assoc": 0.9922
+    },
+    {
+      "a": "15th",
+      "b": "fifteenth",
+      "n": 120,
+      "assoc": 0.6704
+    },
+    {
+      "a": "21st",
+      "b": "twenty",
+      "n": 108,
+      "assoc": 0.7013
+    },
+    {
+      "a": "20th",
+      "b": "twentieth",
+      "n": 103,
+      "assoc": 0.7357
+    },
+    {
+      "a": "ri",
+      "b": "rhode",
+      "n": 90,
+      "assoc": 1.0
+    },
+    {
+      "a": "ri",
+      "b": "island",
+      "n": 90,
+      "assoc": 0.72
+    },
+    {
+      "a": "port",
+      "b": "pt",
+      "n": 75,
+      "assoc": 0.4601
+    },
+    {
+      "a": "greece",
+      "b": "rochester",
+      "n": 60,
+      "assoc": 0.3409
+    }
+  ],
+  "name_alias_pairs": [
+    {
+      "a": "limited",
+      "b": "limiteda",
+      "n": 19297,
+      "assoc": 0.3929
+    },
+    {
+      "a": "private",
+      "b": "limiteda",
+      "n": 16162,
+      "assoc": 0.4136
+    },
+    {
+      "a": "private",
+      "b": "praiveta",
+      "n": 14917,
+      "assoc": 0.3818
+    },
+    {
+      "a": "pvt",
+      "b": "li",
+      "n": 3292,
+      "assoc": 0.4683
+    },
+    {
+      "a": "pvt",
+      "b": "pra",
+      "n": 3292,
+      "assoc": 0.4683
+    },
+    {
+      "a": "inc",
+      "b": "incorporated",
+      "n": 3258,
+      "assoc": 0.3857
+    },
+    {
+      "a": "llp",
+      "b": "elaelapi",
+      "n": 1341,
+      "assoc": 0.4702
+    },
+    {
+      "a": "tech",
+      "b": "teka",
+      "n": 862,
+      "assoc": 0.5205
+    },
+    {
+      "a": "it",
+      "b": "aiti",
+      "n": 816,
+      "assoc": 0.7549
+    },
+    {
+      "a": "global",
+      "b": "globala",
+      "n": 815,
+      "assoc": 0.4227
+    },
+    {
+      "a": "energy",
+      "b": "enarji",
+      "n": 784,
+      "assoc": 0.6287
+    },
+    {
+      "a": "international",
+      "b": "intaraneshanala",
+      "n": 761,
+      "assoc": 0.382
+    },
+    {
+      "a": "media",
+      "b": "midiya",
+      "n": 700,
+      "assoc": 0.5477
+    },
+    {
+      "a": "consultancy",
+      "b": "kansaltensi",
+      "n": 620,
+      "assoc": 0.4422
+    },
+    {
+      "a": "corp",
+      "b": "corporation",
+      "n": 593,
+      "assoc": 0.4176
+    },
+    {
+      "a": "impex",
+      "b": "impeksa",
+      "n": 590,
+      "assoc": 0.5166
+    },
+    {
+      "a": "builders",
+      "b": "bildarsa",
+      "n": 577,
+      "assoc": 0.4773
+    },
+    {
+      "a": "constructions",
+      "b": "kanstrakshansa",
+      "n": 546,
+      "assoc": 0.4884
+    },
+    {
+      "a": "business",
+      "b": "bijanesa",
+      "n": 540,
+      "assoc": 0.4323
+    },
+    {
+      "a": "consulting",
+      "b": "kansaltinga",
+      "n": 525,
+      "assoc": 0.4193
+    },
+    {
+      "a": "products",
+      "b": "prodaktsa",
+      "n": 522,
+      "assoc": 0.3807
+    },
+    {
+      "a": "exports",
+      "b": "eksaportsa",
+      "n": 519,
+      "assoc": 0.4501
+    },
+    {
+      "a": "estate",
+      "b": "esteta",
+      "n": 516,
+      "assoc": 0.5049
+    },
+    {
+      "a": "technology",
+      "b": "teknoloji",
+      "n": 512,
+      "assoc": 0.3891
+    },
+    {
+      "a": "food",
+      "b": "phuda",
+      "n": 507,
+      "assoc": 0.4725
+    },
+    {
+      "a": "projects",
+      "b": "projektsa",
+      "n": 505,
+      "assoc": 0.4353
+    },
+    {
+      "a": "infra",
+      "b": "inphra",
+      "n": 503,
+      "assoc": 0.4385
+    },
+    {
+      "a": "marketing",
+      "b": "marketinga",
+      "n": 502,
+      "assoc": 0.4291
+    },
+    {
+      "a": "logistics",
+      "b": "lojistiksa",
+      "n": 501,
+      "assoc": 0.3914
+    },
+    {
+      "a": "investment",
+      "b": "investamenta",
+      "n": 500,
+      "assoc": 0.463
+    },
+    {
+      "a": "construction",
+      "b": "kanstrakshana",
+      "n": 498,
+      "assoc": 0.4092
+    },
+    {
+      "a": "producer",
+      "b": "prodyusara",
+      "n": 496,
+      "assoc": 0.4059
+    },
+    {
+      "a": "infotech",
+      "b": "inphoteka",
+      "n": 495,
+      "assoc": 0.4618
+    },
+    {
+      "a": "developers",
+      "b": "devalaparsa",
+      "n": 494,
+      "assoc": 0.3847
+    },
+    {
+      "a": "power",
+      "b": "pavara",
+      "n": 491,
+      "assoc": 0.448
+    },
+    {
+      "a": "infrastructure",
+      "b": "inphrastrakchara",
+      "n": 482,
+      "assoc": 0.4088
+    },
+    {
+      "a": "finance",
+      "b": "phainensa",
+      "n": 481,
+      "assoc": 0.3842
+    },
+    {
+      "a": "investments",
+      "b": "investamentsa",
+      "n": 472,
+      "assoc": 0.4076
+    },
+    {
+      "a": "agro",
+      "b": "egro",
+      "n": 465,
+      "assoc": 0.4659
+    },
+    {
+      "a": "corporation",
+      "b": "corp",
+      "n": 462,
+      "assoc": 0.5366
+    },
+    {
+      "a": "software",
+      "b": "sophtaveyara",
+      "n": 461,
+      "assoc": 0.3785
+    },
+    {
+      "a": "healthcare",
+      "b": "helthakeyara",
+      "n": 459,
+      "assoc": 0.4095
+    },
+    {
+      "a": "foods",
+      "b": "phudsa",
+      "n": 459,
+      "assoc": 0.3726
+    },
+    {
+      "a": "co",
+      "b": "company",
+      "n": 455,
+      "assoc": 0.3711
+    },
+    {
+      "a": "high",
+      "b": "hai",
+      "n": 453,
+      "assoc": 0.8531
+    },
+    {
+      "a": "company",
+      "b": "co",
+      "n": 429,
+      "assoc": 0.5323
+    },
+    {
+      "a": "laxmi",
+      "b": "lakshmi",
+      "n": 427,
+      "assoc": 0.8768
+    },
+    {
+      "a": "hospitality",
+      "b": "hospitailiti",
+      "n": 418,
+      "assoc": 0.3429
+    },
+    {
+      "a": "properties",
+      "b": "propartija",
+      "n": 410,
+      "assoc": 0.3581
+    },
+    {
+      "a": "sky",
+      "b": "skai",
+      "n": 391,
+      "assoc": 0.8045
+    },
+    {
+      "a": "blue",
+      "b": "blu",
+      "n": 373,
+      "assoc": 0.4543
+    },
+    {
+      "a": "city",
+      "b": "siti",
+      "n": 352,
+      "assoc": 0.578
+    },
+    {
+      "a": "new",
+      "b": "nyu",
+      "n": 344,
+      "assoc": 0.6667
+    },
+    {
+      "a": "life",
+      "b": "laipha",
+      "n": 322,
+      "assoc": 0.527
+    },
+    {
+      "a": "gujarat",
+      "b": "gujarata",
+      "n": 321,
+      "assoc": 0.75
+    },
+    {
+      "a": "east",
+      "b": "ista",
+      "n": 316,
+      "assoc": 0.542
+    },
+    {
+      "a": "jay",
+      "b": "jaya",
+      "n": 305,
+      "assoc": 0.5041
+    },
+    {
+      "a": "classic",
+      "b": "klasika",
+      "n": 304,
+      "assoc": 0.413
+    },
+    {
+      "a": "ram",
+      "b": "rama",
+      "n": 301,
+      "assoc": 0.8157
+    },
+    {
+      "a": "hitech",
+      "b": "haiteka",
+      "n": 300,
+      "assoc": 0.6122
+    },
+    {
+      "a": "jai",
+      "b": "jaya",
+      "n": 300,
+      "assoc": 0.4959
+    },
+    {
+      "a": "raj",
+      "b": "raja",
+      "n": 298,
+      "assoc": 0.8663
+    },
+    {
+      "a": "super",
+      "b": "supara",
+      "n": 296,
+      "assoc": 0.5681
+    },
+    {
+      "a": "al",
+      "b": "ala",
+      "n": 295,
+      "assoc": 0.7909
+    },
+    {
+      "a": "prime",
+      "b": "praima",
+      "n": 294,
+      "assoc": 0.4509
+    },
+    {
+      "a": "south",
+      "b": "sautha",
+      "n": 294,
+      "assoc": 0.5167
+    },
+    {
+      "a": "eastern",
+      "b": "istarna",
+      "n": 292,
+      "assoc": 0.5187
+    },
+    {
+      "a": "big",
+      "b": "biga",
+      "n": 287,
+      "assoc": 0.6308
+    },
+    {
+      "a": "shyam",
+      "b": "shyama",
+      "n": 285,
+      "assoc": 0.7661
+    },
+    {
+      "a": "bombay",
+      "b": "bombe",
+      "n": 284,
+      "assoc": 0.5992
+    },
+    {
+      "a": "sunrise",
+      "b": "sanaraija",
+      "n": 282,
+      "assoc": 0.6
+    },
+    {
+      "a": "gold",
+      "b": "golda",
+      "n": 281,
+      "assoc": 0.6231
+    },
+    {
+      "a": "lotus",
+      "b": "lotasa",
+      "n": 281,
+      "assoc": 0.6343
+    },
+    {
+      "a": "anand",
+      "b": "ananda",
+      "n": 281,
+      "assoc": 0.7938
+    },
+    {
+      "a": "star",
+      "b": "stara",
+      "n": 280,
+      "assoc": 0.4301
+    },
+    {
+      "a": "dream",
+      "b": "drima",
+      "n": 279,
+      "assoc": 0.5636
+    },
+    {
+      "a": "innovative",
+      "b": "inovetiva",
+      "n": 279,
+      "assoc": 0.3935
+    },
+    {
+      "a": "digital",
+      "b": "dijitala",
+      "n": 278,
+      "assoc": 0.3436
+    },
+    {
+      "a": "premier",
+      "b": "primiyara",
+      "n": 278,
+      "assoc": 0.4131
+    },
+    {
+      "a": "sun",
+      "b": "sana",
+      "n": 278,
+      "assoc": 0.578
+    },
+    {
+      "a": "vijay",
+      "b": "vijaya",
+      "n": 278,
+      "assoc": 0.7092
+    },
+    {
+      "a": "jain",
+      "b": "jaina",
+      "n": 277,
+      "assoc": 0.8123
+    },
+    {
+      "a": "good",
+      "b": "guda",
+      "n": 276,
+      "assoc": 0.5498
+    },
+    {
+      "a": "great",
+      "b": "greta",
+      "n": 276,
+      "assoc": 0.386
+    },
+    {
+      "a": "smart",
+      "b": "smarta",
+      "n": 276,
+      "assoc": 0.4608
+    },
+    {
+      "a": "bright",
+      "b": "braita",
+      "n": 274,
+      "assoc": 0.3887
+    },
+    {
+      "a": "red",
+      "b": "reda",
+      "n": 271,
+      "assoc": 0.6708
+    },
+    {
+      "a": "perfect",
+      "b": "paraphekta",
+      "n": 270,
+      "assoc": 0.5696
+    },
+    {
+      "a": "supreme",
+      "b": "suprima",
+      "n": 268,
+      "assoc": 0.4129
+    },
+    {
+      "a": "royal",
+      "b": "royala",
+      "n": 268,
+      "assoc": 0.3681
+    },
+    {
+      "a": "ss",
+      "b": "esaesa",
+      "n": 267,
+      "assoc": 0.6312
+    },
+    {
+      "a": "dynamic",
+      "b": "dayanamika",
+      "n": 267,
+      "assoc": 0.3831
+    },
+    {
+      "a": "pioneer",
+      "b": "payoniyara",
+      "n": 267,
+      "assoc": 0.3926
+    },
+    {
+      "a": "bharat",
+      "b": "bharata",
+      "n": 265,
+      "assoc": 0.7486
+    },
+    {
+      "a": "real",
+      "b": "riyala",
+      "n": 261,
+      "assoc": 0.4516
+    },
+    {
+      "a": "white",
+      "b": "vhaita",
+      "n": 258,
+      "assoc": 0.4632
+    },
+    {
+      "a": "indian",
+      "b": "indiyana",
+      "n": 257,
+      "assoc": 0.6033
+    },
+    {
+      "a": "apex",
+      "b": "epeksa",
+      "n": 256,
+      "assoc": 0.3914
+    },
+    {
+      "a": "best",
+      "b": "besta",
+      "n": 255,
+      "assoc": 0.4264
+    },
+    {
+      "a": "arihant",
+      "b": "arihanta",
+      "n": 254,
+      "assoc": 0.8411
+    },
+    {
+      "a": "urban",
+      "b": "arbana",
+      "n": 254,
+      "assoc": 0.4721
+    },
+    {
+      "a": "swastik",
+      "b": "svastika",
+      "n": 254,
+      "assoc": 0.5248
+    },
+    {
+      "a": "all",
+      "b": "ola",
+      "n": 253,
+      "assoc": 0.3822
+    },
+    {
+      "a": "first",
+      "b": "pharsta",
+      "n": 252,
+      "assoc": 0.359
+    },
+    {
+      "a": "modern",
+      "b": "modarna",
+      "n": 249,
+      "assoc": 0.37
+    },
+    {
+      "a": "my",
+      "b": "maya",
+      "n": 248,
+      "assoc": 0.5499
+    },
+    {
+      "a": "one",
+      "b": "vana",
+      "n": 248,
+      "assoc": 0.5072
+    },
+    {
+      "a": "fortune",
+      "b": "phorchyuna",
+      "n": 248,
+      "assoc": 0.4733
+    },
+    {
+      "a": "north",
+      "b": "northa",
+      "n": 246,
+      "assoc": 0.4114
+    },
+    {
+      "a": "united",
+      "b": "yunaiteda",
+      "n": 246,
+      "assoc": 0.3623
+    },
+    {
+      "a": "unique",
+      "b": "yunika",
+      "n": 245,
+      "assoc": 0.5444
+    },
+    {
+      "a": "hotel",
+      "b": "hotala",
+      "n": 243,
+      "assoc": 0.54
+    },
+    {
+      "a": "shiv",
+      "b": "shiva",
+      "n": 243,
+      "assoc": 0.6497
+    },
+    {
+      "a": "universal",
+      "b": "yunivarsala",
+      "n": 242,
+      "assoc": 0.469
+    },
+    {
+      "a": "ace",
+      "b": "esa",
+      "n": 242,
+      "assoc": 0.4116
+    },
+    {
+      "a": "black",
+      "b": "blaika",
+      "n": 238,
+      "assoc": 0.4667
+    },
+    {
+      "a": "future",
+      "b": "phyuchara",
+      "n": 237,
+      "assoc": 0.4907
+    },
+    {
+      "a": "southern",
+      "b": "sadarna",
+      "n": 236,
+      "assoc": 0.4104
+    },
+    {
+      "a": "seven",
+      "b": "sevana",
+      "n": 234,
+      "assoc": 0.6341
+    },
+    {
+      "a": "shivam",
+      "b": "shivama",
+      "n": 231,
+      "assoc": 0.5487
+    },
+    {
+      "a": "maa",
+      "b": "man",
+      "n": 214,
+      "assoc": 0.4809
+    },
+    {
+      "a": "galaxy",
+      "b": "gaileksi",
+      "n": 193,
+      "assoc": 0.3996
+    },
+    {
+      "a": "maa",
+      "b": "ma",
+      "n": 177,
+      "assoc": 0.3978
+    },
+    {
+      "a": "my",
+      "b": "mai",
+      "n": 168,
+      "assoc": 0.3725
+    },
+    {
+      "a": "om",
+      "b": "oma",
+      "n": 158,
+      "assoc": 0.3854
+    },
+    {
+      "a": "mdpc",
+      "b": "md",
+      "n": 139,
+      "assoc": 0.6347
+    }
+  ],
+  "addr_canonical": {
+    "tx": "tx",
+    "texas": "tx",
+    "maharashtra": "mh",
+    "mh": "mh",
+    "ny": "ny",
+    "york": "ny",
+    "new": "ny",
+    "nc": "n",
+    "carolina": "n",
+    "n": "n",
+    "oh": "oh",
+    "ohio": "oh",
+    "il": "il",
+    "illinois": "il",
+    "tn": "tn",
+    "tennessee": "tn",
+    "nadu": "tn",
+    "tamil": "tn",
+    "tamilnatu": "tn",
+    "ma": "ma",
+    "massachusetts": "ma",
+    "az": "az",
+    "arizona": "az",
+    "va": "va",
+    "virginia": "va",
+    "in": "in",
+    "indiana": "in",
+    "wa": "wa",
+    "washington": "wa",
+    "md": "md",
+    "maryland": "md",
+    "pradesh": "ap",
+    "up": "ap",
+    "uttar": "ap",
+    "pradesha": "ap",
+    "uttara": "ap",
+    "telangana": "ap",
+    "tg": "ap",
+    "andhra": "ap",
+    "ap": "ap",
+    "andhrapradesh": "ap",
+    "ca": "ca",
+    "california": "ca",
+    "karnataka": "ka",
+    "ka": "ka",
+    "al": "al",
+    "alabama": "al",
+    "bengal": "w",
+    "wb": "w",
+    "w": "w",
+    "pashchimabangga": "w",
+    "wv": "w",
+    "mn": "mn",
+    "minnesota": "mn",
+    "or": "or",
+    "oregon": "or",
+    "ky": "ky",
+    "kentucky": "ky",
+    "gujarat": "gj",
+    "gj": "gj",
+    "gujarata": "gj",
+    "wi": "dc",
+    "wisconsin": "dc",
+    "of": "dc",
+    "dc": "dc",
+    "dist": "dc",
+    "columbia": "dc",
+    "st": "st",
+    "saint": "st",
+    "ar": "ar",
+    "arkansas": "ar",
+    "mo": "mo",
+    "missouri": "mo",
+    "ok": "ok",
+    "oklahoma": "ok",
+    "ut": "ut",
+    "utah": "ut",
+    "ia": "ia",
+    "iowa": "ia",
+    "haryana": "hr",
+    "hr": "hr",
+    "hariyana": "hr",
+    "ct": "ct",
+    "connecticut": "ct",
+    "rajasthan": "rj",
+    "rj": "rj",
+    "rajasthana": "rj",
+    "kerala": "kl",
+    "kl": "kl",
+    "ks": "ks",
+    "kansas": "ks",
+    "orissa": "odisha",
+    "odisha": "odisha",
+    "bihar": "br",
+    "br": "br",
+    "bihara": "br",
+    "madhya": "mp",
+    "mp": "mp",
+    "me": "me",
+    "maine": "me",
+    "nm": "nm",
+    "mexico": "nm",
+    "pa": "pa",
+    "pennsylvania": "pa",
+    "punjab": "pa",
+    "pb": "pa",
+    "jaba": "pa",
+    "mt": "mt",
+    "montana": "mt",
+    "mount": "mt",
+    "de": "de",
+    "delaware": "de",
+    "nd": "nd",
+    "dakota": "nd",
+    "ne": "ne",
+    "nebraska": "ne",
+    "vt": "vt",
+    "vermont": "vt",
+    "co": "co",
+    "colorado": "co",
+    "la": "la",
+    "louisiana": "la",
+    "fort": "ft",
+    "ft": "ft",
+    "ak": "ak",
+    "alaska": "ak",
+    "ga": "ga",
+    "georgia": "ga",
+    "atlanta": "ga",
+    "atl": "ga",
+    "sc": "s",
+    "s": "s",
+    "4th": "4th",
+    "fourth": "4th",
+    "cove": "cv",
+    "cv": "cv",
+    "2nd": "2nd",
+    "second": "2nd",
+    "3rd": "3rd",
+    "third": "3rd",
+    "wy": "wy",
+    "wyoming": "wy",
+    "5th": "5th",
+    "fifth": "5th",
+    "1st": "1st",
+    "first": "1st",
+    "7th": "7th",
+    "seventh": "7th",
+    "8th": "8th",
+    "eighth": "8th",
+    "6th": "6th",
+    "sixth": "6th",
+    "10th": "10th",
+    "tenth": "10th",
+    "9th": "9th",
+    "ninth": "9th",
+    "11th": "11th",
+    "eleventh": "11th",
+    "12th": "12th",
+    "twelfth": "12th",
+    "14th": "14th",
+    "fourteenth": "14th",
+    "13th": "13th",
+    "thirteenth": "13th",
+    "id": "id",
+    "idaho": "id",
+    "15th": "15th",
+    "fifteenth": "15th",
+    "21st": "21st",
+    "twenty": "21st",
+    "20th": "20th",
+    "twentieth": "20th",
+    "ri": "ri",
+    "rhode": "ri",
+    "island": "ri",
+    "port": "pt",
+    "pt": "pt",
+    "greece": "greece",
+    "rochester": "greece"
+  },
+  "n_addr_canonical": 179
+}

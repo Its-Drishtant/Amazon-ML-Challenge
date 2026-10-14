@@ -1,0 +1,38 @@
+{
+  "a": {
+    "model": "models/matcher_v2.joblib",
+    "cand": "artifacts/cache/cand_train_val_k20.parquet",
+    "n_features": 57,
+    "decision": {
+      "rule": "threshold",
+      "tau": 0.65,
+      "alpha": null
+    },
+    "mean_f05": 0.9544180809804607,
+    "n_pred_ids": 190862
+  },
+  "b": {
+    "model": "models/matcher_v3.joblib",
+    "cand": "artifacts/cache/cand_train_val_k20_alias.parquet",
+    "n_features": 57,
+    "decision": {
+      "rule": "threshold",
+      "tau": 0.65,
+      "alpha": null
+    },
+    "mean_f05": 0.9561323268441259,
+    "n_pred_ids": 191477
+  },
+  "n_entities": 60000,
+  "mean_difference": 0.0017142458636651265,
+  "paired_se": 0.0002487052726611716,
+  "t_stat": 6.8926800196977025,
+  "ci95_low": 0.0012350589783651658,
+  "ci95_high": 0.002211616975674307,
+  "n_better": 1986,
+  "n_worse": 1439,
+  "n_same": 56575,
+  "verdict": "B is better beyond sampling noise",
+  "peak_rss_gb": 5.63,
+  "seconds": 132.6
+}
